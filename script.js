@@ -48,7 +48,7 @@ function guessNumber(){
             else {
                 document.querySelector(".message").textContent = "too small"
             }    
-        document.querySelector(".score").textContent = `${count}`;
+            document.querySelector(".score").textContent = `${count}`;
         }else{
      document.querySelector(".message").textContent = "Number between 1-20!."
         }
